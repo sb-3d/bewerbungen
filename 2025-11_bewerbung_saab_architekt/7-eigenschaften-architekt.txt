@@ -1,0 +1,53 @@
+1. Fundiertes Technisches Wissen (Hard Skill)
+Ein Architekt muss ein tiefes und breites Verständnis für Technologie haben, das über die reine Programmierung hinausgeht.
+
+Beherrschung von Architekturmustern: Wissen über gängige Architekturen (z.B. Microservices, Event-Driven Architecture, Layered Architecture) und wann diese jeweils sinnvoll sind.
+
+Technologie-Stack-Wissen: Kenntnis verschiedener Programmiersprachen, Datenbanken, Cloud-Plattformen und Entwicklungstools sowie die Fähigkeit, die richtigen Technologien für das Projekt auszuwählen.
+
+Non-funktionale Anforderungen: Tiefes Verständnis für Qualitätsmerkmale wie Skalierbarkeit, Performance, Sicherheit und Wartbarkeit und die Fähigkeit, die Architektur so zu gestalten, dass diese Anforderungen erfüllt werden.
+
+🧠 2. Analytische und Problemlösungskompetenz (Hard Skill)
+Die Hauptaufgabe eines Architekten ist die Lösung komplexer technischer Herausforderungen.
+
+Komplexitätsreduktion: Die Fähigkeit, große, unübersichtliche Probleme in kleinere, handhabbare Module zu zerlegen (Teile und Herrsche-Prinzip).
+
+Ganzheitliches Denken: Die Fähigkeit, das gesamte System und dessen Zusammenspiel mit der Umgebung zu überblicken und langfristige Auswirkungen von Entscheidungen zu antizipieren.
+
+🗣️ 3. Kommunikationsfähigkeit (Soft Skill)
+Der Architekt ist die zentrale Brücke zwischen Fachexperten, Entwicklern und Management.
+
+Zielgruppengerechte Vermittlung: Komplexe technische Sachverhalte so zu vereinfachen und erklären, dass sie sowohl der Geschäftsführung als auch dem Entwicklungsteam verständlich sind.
+
+Überzeugungskraft: Die Fähigkeit, Architektur-Entscheidungen gegenüber allen Stakeholdern zu argumentieren und zu verteidigen.
+
+🤝 4. Stakeholder-Management und Konsensfindung (Soft Skill)
+Er muss die unterschiedlichen Interessen und Bedürfnisse aller Beteiligten ausbalancieren.
+
+Zuhören: Aktives Zuhören und Verstehen der Business-Anforderungen (was der Kunde will) und der technischen Herausforderungen (was das Entwicklungsteam braucht).
+
+Entscheidungsfähigkeit: Die Fähigkeit, bei widerstreitenden Anforderungen (z.B. Kosten vs. Performance) verantwortungsvolle Abwägungen zu treffen und diese Entscheidungen zu dokumentieren.
+
+🎯 5. Strategisches und Visionäres Denken (Hard & Soft Skill)
+Architektur ist ein langfristiges Investment.
+
+Zukunftsorientierung: Die Architektur muss so entworfen sein, dass sie zukünftige Erweiterungen und Änderungen (Änderbarkeit/Flexibilität) ohne großen Aufwand zulässt.
+
+Trendbewusstsein: Kontinuierliche Beobachtung und kritische Bewertung neuer Technologien und Trends, um die Wettbewerbsfähigkeit der Lösungen zu sichern.
+
+🗂️ 6. Dokumentation und Visualisierung (Hard Skill)
+Die Architektur muss für alle verständlich und nachvollziehbar sein.
+
+Klare Darstellung: Fähigkeit, die Systemstruktur, die Komponenten und deren Interaktionen mit geeigneten Tools (z.B. UML-Diagrammen) präzise zu visualisieren.
+
+
+Shutterstock
+Entdecken
+Entscheidungsdokumentation: Wichtige Architekturentscheidungen (Architecture Decision Records – ADRs) müssen transparent und nachvollziehbar festgehalten werden, inklusive der Begründung, warum eine bestimmte Lösung gewählt und andere verworfen wurden.
+
+🧑‍🤝‍🧑 7. Laterales Führen und Mentoring (Soft Skill)
+Der Architekt leitet das Team technisch an, ohne notwendigerweise der disziplinarische Vorgesetzte zu sein.
+
+Vorbildfunktion: Einhaltung von Best Practices und Codierungsstandards als technisches Vorbild für die Entwickler.
+
+Befähigung: Unterstützung und Coaching der Entwickler, damit diese ihre Entscheidungen im Einklang mit der Gesamtarchitektur treffen können.

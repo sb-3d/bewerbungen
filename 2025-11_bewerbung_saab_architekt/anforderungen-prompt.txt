@@ -1,0 +1,31 @@
+ projektbewerbung software architekt
+schreibe mir warum ich ein großartiger software architekt bin 
+
+## quellen
+- der ideale architekt ist hier beschrieben: "7-eigenschaften-architekt.txt"
+- verwende mein profil "2025-04_cv_gulp_seit_2003.pdf"
+
+## fokus
+- lege besonderen wert auf folgendes:
+  - ich arbeite gerne im team
+  - qualitätsbewußtsein (Skalierbarkeit, Performance, Sicherheit und Wartbarkeit)/-sicherung
+  - qualitätssicherung (testbasiert)
+  - codegenerierung aus UML
+  - mentoring
+  - erfahrung beim zuschneiden der anforderungen in use cases z.B. nach "Single Responsible Principle"
+
+- weil ich interesse an neuen technologien habe
+- weil ich viele erfahrung in software architektur als senior und lead entwickler habe
+- es macht mir spaß komplexe probleme zu analysieren und in kleinere packete herunterzubrechen
+- 
+
+## stil
+- arbeite anhand der beiden dateien die wesentlichen eigenschaften heraus, die mich befähigen eine architektenstelle aauszufüllen
+- ca 300 Worte
+- schreibe in der ich-form: 
+  - "Ich achte auf Qualität, Skalierbarkeit...die einhaltung prüfe ich so..."
+  - "Qualität ist für mich ein Arbeitsprinzip. ich setze dazu gerne verschiedene Testverfahren (Beispiele..) und bewerte den erfolg mittels.."
+- schreibe sachlich, kein geschwafel, keine angeberei, kein "ich bin der beste"
+- schreibe praktisch, auf den punkt gerne auch kürzer als 300 worte
+- bringe einen emotionalen aspekt rein: wie gerne ich im unternehmen saab arbeite,
+

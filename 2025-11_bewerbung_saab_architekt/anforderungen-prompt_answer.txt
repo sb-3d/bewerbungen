@@ -1,0 +1,14 @@
+## Why I am suited to the role of architect
+
+With many years of experience as a senior and lead developer in complex software projects, I have built up extensive expertise in architecture, analysis as well as quality and testing concepts. Designing systems so that they remain scalable, secure, maintainable and expandable in the long term is what architecture means to me. Accordingly, I focus on clear structures, loose coupling and well-defined responsibilities, ensuring adherence to these principles through automated tests, ADRs and regular reviews.
+
+Quality is a working principle for me. I use various testing methods such as unit, integration and system tests and have designed and implemented complete test frameworks in several projects. For me, the success of these measures is reflected in reproducible results, stable deployments and clearly measurable quality metrics such as error rates and performance values.
+
+I enjoy analysing complex tasks and breaking them down into clearly defined use cases based on functional and technical responsibilities – often guided by the single responsibility principle. This results in robust, easy-to-understand and maintainable architectures. In many projects, I have worked with specialist teams to develop requirements and translate them into precise technical designs, often supported by UML models and subsequent code generation.
+
+Teamwork is an important part of my professional approach, and I consider architecture as a collaborative process. Mentoring is therefore a natural part of my work, whether through coaching on design patterns, clean code, SOLID, or by supporting less experienced developers in their daily work. The ability to communicate technical decisions in a way that is understandable and appropriate for the target audience is a central part of my role.
+
+I am enthusiastic about new technologies – from microservices to .NET Core, EventStore architectures and modern CI/CD pipelines, I have actively implemented many trends in projects.
+
+The prospect of contributing this experience to a company like Saab is especially motivating: an environment where precision, quality and technological excellence are valued—and where I would like to contribute to a strong team in the long term.
+
