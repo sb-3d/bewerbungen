@@ -1,0 +1,52 @@
+Beschreibung
+Senior Softwareentwickler C#/.NET eHealth (m/w/d)
+
+Ein etablierter Anbieter im Healthcare Bereich sucht Verstärkung für ein agiles Softwareentwicklungsteam. Gesucht wird ein erfahrener C#/.NET-Entwickler, der hochwertige Anwendungen für das Gesundheitswesen über den gesamten Entwicklungszyklus hinweg mitgestaltet.
+
+Eckdaten
+Start: 19.10.2026
+Dauer: bis 31.03.2027 (ca. 5,5 Monate)
+Remote/On-Site: Remote deutschlandweit
+Auslastung: 100%
+
+DEINE CHALLENGE
+Design, Implementierung, technische Dokumentation, Refactoring und Wartung von Softwarekomponenten verantworten
+Anwendungen über den gesamten Technologie-Stack weiterentwickeln: von Windows-Desktop-Frontends bis zu Middleware, Schnittstellen und SQL-Backend
+Bestehende Lösungen mit C#/.NET und WinForms pflegen und funktional wie qualitativ verbessern
+REST-APIs und Schnittstellen im Gesundheitswesen integrieren und weiterentwickeln
+Technische Konzepte erstellen und Anforderungen gemeinsam mit Produktmanagement und Team in tragfähige Lösungen übersetzen
+Aktiv in einem agilen Entwicklungsumfeld mit Scrum und SAFe arbeiten
+Qualitätsstandards für zuverlässige Software im sensiblen Gesundheitsumfeld sicherstellen
+
+
+DEINE TALENTE
+
+Must-Have
+Mehrjährige praktische Erfahrung in der professionellen Softwareentwicklung im Team
+Gute Kenntnisse in C#/.NET, Datenbanken und SQL sowie praktische Erfahrung mit WinForms und Visual Studio
+Erfahrung in mehreren Phasen des Software-Lebenszyklus, von Design und Implementierung bis Wartung und Refactoring
+Praxis in agilen Entwicklungsteams und Freude an proaktiver Zusammenarbeit
+Abgeschlossene IT-Ausbildung, beispielsweise als Fachinformatiker, oder ein Studium im Bereich Informatik, Computer Science oder Software Engineering
+Sehr gute Deutschkenntnisse auf mindestens C1-Niveau sowie gute Englischkenntnisse in Wort und Schrift
+Hoher Qualitätsanspruch und Interesse an Softwarelösungen für das Gesundheitswesen
+
+
+Nice-to-Have
+Erfahrung mit DevExpress, HTML5 oder Blazor
+Kenntnisse in der Entwicklung und Integration von REST-APIs und FHIR-Schnittstellen
+Erfahrung mit SAFe oder vergleichbaren agilen Skalierungsframeworks
+
+
+Jetzt bei consultingheads als Berater registrieren: https://app.consultingheads.com/kandidat/registrieren
+
+Über uns
+consultingheads. Wenn Ergebnisse entscheiden. Wir bringen Sie mit den wirkungsstärksten Freiberufliche Beratern, IT- & Fachexperten und Interim Managern zusammen - persönlich ausgewählt, schnell verfügbar und verlässlich im Projekt.
+
+Was wir tun
+Wo reine Algorithmen an ihre Grenzen stoßen, beginnt unsere Stärke: die persönliche Beratung. Wir analysieren gemeinsam Ihre Herausforderung und finden genau die Persönlichkeit, die fachlich und menschlich zu Ihnen passt.
+
+Unser Netzwerk
+Mit über 23.000 Experten eines der größten und sorgfältigst selektionierten im DACH-Raum, voller qualitätsgesicherter Berater, Fach- und Führungskräfte, die bereit sind, Ihre Projekte zum Erfolg zu führen.
+
+Unser Ansatz
+Wir kombinieren die Exzellenz einer Beratung mit der Flexibilität und Geschwindigkeit, die moderne Unternehmen brauchen. Handverlesen, ergebnisorientiert und immer partnerschaftlich. Seit 2016 vertrauen führende Unternehmen, Beratungen und Private-Equity-Gesellschaften auf uns - in mehr als 3.000 erfolgreichen Projekten.
