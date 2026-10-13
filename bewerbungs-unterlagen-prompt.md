@@ -18,14 +18,22 @@ Frage erst danach und ebenfalls einzeln nach der Ausgabesprache:
 > 3. Dänisch
 > Antworte mit 1, 2 oder 3. Eine leere Antwort oder „Standard“ bedeutet Englisch.
 
-Warte auf die Antwort. Verwende die gewählte Zielsprache für beide Dokumente, soweit die nachfolgenden Regeln unveränderte CV-Bereiche schützen. Übersetze natürlich und fachlich präzise; behalte Eigennamen, Produktnamen und etablierte technische Bezeichner bei.
+Warte auf die Antwort. Verwende die gewählte Zielsprache für beide Dokumente, soweit die nachfolgenden Regeln unveränderte CV-Bereiche schützen. Übersetze natürlich und fachlich präzise; behalte Eigennamen, Produktnamen und etablierte technische Bezeichner bei. 
 
 Arbeite vom Repository-Root aus. Verwende ausschließlich relative Pfade innerhalb des Repositorys. Die Vorlagen liegen hier:
 
-- Anschreiben: `2025-08_bewerbung_saab/2025-08-22_cl_stefan_busch.odt`
-- CV: `2025-08_bewerbung_saab/2025-08-21_cv_stefan_busch.odt`
+- Anschreiben: `/vorlagen/2025-08-22_cl_stefan_busch.odt`
+- CV: `/vorlagen/2026-02-25_cv_stefan_busch.odt`
+
+verwende im Kopf
+- bei deutsch: `24955 Harrislee, Germany, +49 177 84 46 811, stefan.busch@sb-systec.de`
+- bei dänisch: `6470 Østerby, Danmark, +45 91 99 06 83, stefan.busch@sb-systec.de`
+
+übersetze automatisch in die Zielsprache
 
 Verwende vorhandene, vom Nutzer bereitgestellte Profilunterlagen ergänzend als Faktenquelle. Unterscheide belegte Erfahrung von Anforderungen der Stellenausschreibung. Erfinde keine Kenntnisse, Tätigkeiten, Verantwortlichkeiten, Erfolge, Kennzahlen oder Qualifikationen. Stelle notwendige Rückfragen einzeln; triff bei reinen Formulierungs- und Gestaltungsentscheidungen vernünftige Annahmen.
+
+Zum Ermitteln meiner Skills lies zum Abgleich frühere Profile in `/bewerbungen/profile`
 
 ## Anforderungen abgleichen und fehlende Erfahrungen klären
 
