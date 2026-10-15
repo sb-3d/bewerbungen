@@ -43,8 +43,9 @@ Verwende für die Ortsangabe beim Briefdatum bei Deutsch `Harrislee`, bei Englis
 
 Verwende vorhandene, vom Nutzer bereitgestellte Profilunterlagen ergänzend als Faktenquelle. Unterscheide belegte Erfahrung von Anforderungen der Stellenausschreibung. Erfinde keine Kenntnisse, Tätigkeiten, Verantwortlichkeiten, Erfolge, Kennzahlen oder Qualifikationen. Stelle notwendige Rückfragen einzeln; triff bei reinen Formulierungs- und Gestaltungsentscheidungen vernünftige Annahmen.
 
-Zum Ermitteln meiner Skills lies zum Abgleich `./profils/profil-summary.md`
-Zum Ermitteln der zeitlichen abfolge der projekte lies zum Abgleich `./profils/profil-summary.md`, das ist die einzige quelle für die zeitliche projektabfolge.
+Zum Ermitteln meiner Skills lies zum Abgleich `profil-summary.md`
+übernehme sämtliche Projektzeiträume direkt aus `profil-summary.md`; dazu stelle keine weiteren Rückfragen.
+kennzeichne parallele projektzeiträume im cv  
 
 ## Anforderungen abgleichen und fehlende Erfahrungen klären
 
