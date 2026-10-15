@@ -20,10 +20,12 @@ Frage erst danach und ebenfalls einzeln nach der Ausgabesprache:
 
 Warte auf die Antwort. Verwende die gewählte Zielsprache für beide Dokumente, soweit die nachfolgenden Regeln unveränderte CV-Bereiche schützen. Übersetze natürlich und fachlich präzise; behalte Eigennamen, Produktnamen und etablierte technische Bezeichner bei. 
 
-Arbeite vom Repository-Root aus. Verwende ausschließlich relative Pfade innerhalb des Repositorys. Die Vorlagen liegen hier:
+Arbeite vom Repository-Root aus. Verwende ausschließlich relative Pfade innerhalb des Repositorys. Alle folgenden Dateipfade beziehen sich auf den Repository-Root, auch wenn dieser Prompt unter `./prompts/` liegt. Die Vorlagen liegen hier:
 
-- Anschreiben: `/vorlagen/2025-08-22_cl_stefan_busch.odt`
-- CV: `/vorlagen/2026-02-25_cv_stefan_busch.odt`
+- Anschreiben: `./vorlagen/2025-08-22_cl_stefan_busch.odt`
+- CV: `./vorlagen/2026-02-25_cv_stefan_busch.odt`
+
+Profilunterlagen liegen unter `./profils/`, Bewerbungsunterlagen werden unter `./applications/` abgelegt. Prüfe vor dem Lesen die Existenz jeder angegebenen Quelldatei und jedes Quellordners sowie vor dem Schreiben den Ausgabe-Basisordner `./applications/`. Fehlt ein Pfad oder ist seine Zuordnung unklar, frage einzeln nach, bevor du davon abhängige Arbeit beginnst. Verwende keine geratenen Ersatzpfade.
 
 ## Kontaktdaten nach Ausgabesprache auswählen
 
@@ -41,7 +43,8 @@ Verwende für die Ortsangabe beim Briefdatum bei Deutsch `Harrislee`, bei Englis
 
 Verwende vorhandene, vom Nutzer bereitgestellte Profilunterlagen ergänzend als Faktenquelle. Unterscheide belegte Erfahrung von Anforderungen der Stellenausschreibung. Erfinde keine Kenntnisse, Tätigkeiten, Verantwortlichkeiten, Erfolge, Kennzahlen oder Qualifikationen. Stelle notwendige Rückfragen einzeln; triff bei reinen Formulierungs- und Gestaltungsentscheidungen vernünftige Annahmen.
 
-Zum Ermitteln meiner Skills lies zum Abgleich frühere Profile in `/bewerbungen/profile`
+Zum Ermitteln meiner Skills lies zum Abgleich `./profils/profil-summary.md`
+Zum Ermitteln der zeitlichen abfolge der projekte lies zum Abgleich `./profils/profil-summary.md`, das ist die einzige quelle für die zeitliche projektabfolge.
 
 ## Anforderungen abgleichen und fehlende Erfahrungen klären
 
@@ -113,11 +116,11 @@ Verwende das Erstellungsdatum in der Zeitzone `Europe/Berlin` im Format `yyyy-mm
 - Wandle Umlaute in `ae`, `oe` und `ue` sowie `ß` in `ss` um.
 - Entferne oder ersetze sonstige Sonderzeichen; verwende keine Schrägstriche und keine Pfadbestandteile wie `.` oder `..`.
 
-Erstelle direkt im Repository-Root den Ausgabeordner:
+Erstelle unter `./applications/` den Ausgabeordner:
 
-`./{yyyy-mm-dd}_name-der-firma-aus-der-ausschreibung`
+`./applications/{yyyy-mm-dd}_name-der-firma-aus-der-ausschreibung`
 
-Beispiel: Aus „Muster Technik GmbH“ wird `{yyyy-mm-dd}_muster-technik`.
+Beispiel: Aus „Muster Technik GmbH“ wird `./applications/{yyyy-mm-dd}_muster-technik`.
 
 Speichere darin:
 
@@ -215,7 +218,7 @@ flowchart LR
     D --> E{Wichtige Erfahrung unbelegt?}
     E -->|Ja| F[Einzeln mit Vorschlag und Kurzauswahl klären]
     F --> D
-    E -->|Nein| G[Ausgabeordner erstellen]
+    E -->|Nein| G[Ausgabeordner unter applications erstellen]
     G --> M[Ausschreibung mit Quelle als PDF sichern]
     M --> H[Anschreiben und CV anpassen]
     H --> I[Inhalt, geschützte Bereiche und Layout prüfen]
@@ -236,6 +239,7 @@ Prüfe vor der Lieferung:
 10. Vergleiche die Gestaltung mit den Vorlagen und korrigiere Abweichungen innerhalb des erlaubten Änderungsumfangs.
 11. Der Einstieg im Anschreiben zeigt einen persönlichen, belegten Bezug zur ausgeschriebenen Aufgabe. Er enthält weder allgemeine Unternehmenslobeshymnen noch erfundene Motive oder Kontakte. Der Brief bleibt auf den wesentlichen Beitrag und die Zusammenarbeit konzentriert; zusätzliche Inhalte sind durch Stellenrelevanz oder notwendige Einordnung begründet.
 12. Die Ausschreibungs-PDF liegt im selben Ausgabeordner, lässt sich öffnen und wurde auf allen Seiten visuell geprüft. Sie enthält den vollständigen verwendeten Ausschreibungstext in der Originalsprache und eine sichtbare, korrekte Quellenangabe. Bei einer Webseite sind die konkrete URL und das Abrufdatum enthalten; bei anderen Quellen sind Herkunft und Übernahmedatum dokumentiert. Unbekannte Herkunft und technisch nicht durchführbare Prüfungen sind ausdrücklich ausgewiesen.
+13. Alle drei Ausgabedateien liegen im neu erstellten Bewerbungsordner unter `./applications/`. Die verwendeten Quellenpfade wurden gegen die vorhandene Projektstruktur geprüft.
 
 Ist die Seitenbegrenzung innerhalb dieser Vorgaben nicht erreichbar, frage einzeln nach einer Entscheidung. Falls eine Öffnungs-, Render- oder Layoutprüfung technisch nicht möglich ist, benenne die konkrete Prüfungslücke und behaupte nicht, das Layout oder die Seitenzahl seien bestätigt.
 
