@@ -1,6 +1,6 @@
 # Passgenaue Bewerbungsunterlagen für Stefan Busch erstellen
 
-Erstelle anhand einer konkreten Stellenausschreibung und der unten genannten ODT-Vorlagen einen passgenauen Lebenslauf und ein Anschreiben. Liefere beide Dokumente als echte, in LibreOffice bearbeitbare ODT-Dateien und sichere die zugrunde liegende Stellenausschreibung mit Quellenangabe als PDF im selben Ausgabeordner. Führe diesen Auftrag erst aus, wenn dieser Prompt als Arbeitsauftrag verwendet wird.
+Erstelle anhand einer konkreten Stellenausschreibung und der unten genannten ODT-Vorlagen einen passgenauen Lebenslauf und ein Anschreiben. Liefere beide Dokumente als echte, in LibreOffice bearbeitbare ODT-Dateien und sichere die zugrunde liegende Stellenausschreibung mit Quellenangabe als PDF im selben Ausgabeordner. Erstelle dort zusätzlich eine personalisierte Kurzform der Bewerbung als `bewerbung-kurz.md` für das Nachrichtenfeld eines Projektportals. Führe diesen Auftrag erst aus, wenn dieser Prompt als Arbeitsauftrag verwendet wird.
 
 ## Eingaben und Sprachwahl
 
@@ -12,13 +12,13 @@ Warte auf die Antwort. Lies bei einem Link die vollständige Ausschreibung; ist 
 
 Frage erst danach und ebenfalls einzeln nach der Ausgabesprache:
 
-> Welche Ausgabesprache möchtest du für Anschreiben und CV?
+> Welche Ausgabesprache möchtest du für Anschreiben, CV und Bewerbungskurzform?
 > 1. Englisch (Standard)
 > 2. Deutsch
 > 3. Dänisch
 > Antworte mit 1, 2 oder 3. Eine leere Antwort oder „Standard“ bedeutet Englisch.
 
-Warte auf die Antwort. Verwende die gewählte Zielsprache für beide Dokumente, soweit die nachfolgenden Regeln unveränderte CV-Bereiche schützen. Übersetze natürlich und fachlich präzise; behalte Eigennamen, Produktnamen und etablierte technische Bezeichner bei. 
+Warte auf die Antwort. Verwende die gewählte Zielsprache für Anschreiben, CV und Bewerbungskurzform, soweit die nachfolgenden Regeln unveränderte CV-Bereiche schützen. Übersetze natürlich und fachlich präzise; behalte Eigennamen, Produktnamen und etablierte technische Bezeichner bei.
 
 Arbeite vom Repository-Root aus. Verwende ausschließlich relative Pfade innerhalb des Repositorys. Alle folgenden Dateipfade beziehen sich auf den Repository-Root, auch wenn dieser Prompt unter `./prompts/` liegt. Die Vorlagen liegen hier:
 
@@ -127,6 +127,7 @@ Speichere darin:
 - `{yyyy-mm-dd}_stefan_busch_cl.odt`
 - `{yyyy-mm-dd}_stefan_busch_cv.odt`
 - `{yyyy-mm-dd}_stellenausschreibung.pdf`
+- `bewerbung-kurz.md`
 
 Ersetze alle Platzhalter in den tatsächlichen Ordner- und Dateinamen. Überschreibe weder Vorlagen noch einen bereits vorhandenen Ausgabeordner oder vorhandene Ausgabedateien ohne ausdrücklichen Auftrag. Bei einer Namenskollision frage einzeln nach einem anderen Ordnernamen oder der Freigabe zum Überschreiben.
 
@@ -173,6 +174,20 @@ Erstelle das Anschreiben als Kopie der Anschreiben-Vorlage und passe den Inhalt 
 - Übernimm die vorhandene Formatierung, insbesondere Seitenlayout, Schriftarten, Schriftgrößen, Absatzformate und Abstände.
 - Kürze den Text bei Platzproblemen. Verkleinere dafür weder Schrift noch Seitenränder.
 
+## Bewerbungskurzform für Projektportale erstellen
+
+Erstelle nach dem Anforderungsabgleich und der Anpassung von Anschreiben und CV im selben Bewerbungsordner die Datei `bewerbung-kurz.md`. Sie enthält einen direkt kopierbaren Nachrichtentext für ein Projektportal, beispielsweise freelancermap.de.
+
+- Verwende dieselbe gewählte Ausgabesprache wie für Anschreiben und CV.
+- Schreibe insgesamt 100–150 Wörter einschließlich Anrede, Grußformel und Namen in kurzen Absätzen. Verzichte auf Markdown-Überschriften, Tabellen, Listen, einen Briefkopf und erläuternde Hinweise außerhalb des Nachrichtentextes.
+- Sprich die in der Ausschreibung genannte Ansprechperson persönlich mit ihrem Namen an. Übernimm die für das Anschreiben gewählte, sprachlich passende Anrede. Ist keine Ansprechperson bekannt, verwende eine neutrale Anrede; erfinde keinen Namen und recherchiere dafür keine zusätzliche Person.
+- Beginne mit einem konkreten Bezug zur ausgeschriebenen Rolle oder Projektaufgabe. Nenne eine vorhandene Projektkennziffer, wenn sie die Zuordnung erleichtert.
+- Verbinde zwei besonders passende, belegte Erfahrungen knapp mit den wichtigsten Anforderungen. Verwende ausschließlich die bereits abgeglichenen Profilangaben und bestätigten Interviewantworten; dieselben Fakten müssen mit Anschreiben und CV übereinstimmen. Sind weniger als zwei passende Erfahrungen belegt, verwende nur die belegten und fülle den Text nicht mit erfundenen Aussagen auf.
+- Formuliere persönlich, sachlich und direkt. Vermeide allgemeines Unternehmenslob, Superlative, Werkzeuglisten und unbelegte Passungsbehauptungen. Unterscheide bisherige Leistungen vom erwartbaren Beitrag zur ausgeschriebenen Aufgabe.
+- Schließe mit einem kurzen Gesprächswunsch, einer zur Zielsprache passenden Grußformel und `Stefan Busch`.
+- Nimm Verfügbarkeit und Stundensatz nur auf, wenn sie vom Nutzer für diese Bewerbung bestätigt wurden. Leite sie weder aus dem gewünschten Projektstart noch aus früheren Bewerbungen ab. Fehlt die Bestätigung, lasse diese Angaben ohne Platzhalter weg.
+- Die bestehenden Regeln für Quellen, belegte Aussagen, Ausgabeordner und Überschreibschutz gelten auch für diese Datei. Erstelle die Kurzform lokal; versende sie nicht und trage sie nicht in ein Portal ein.
+
 ## CV gezielt anpassen
 
 Erstelle den CV als Kopie der CV-Vorlage. Passe Summary, hervorgehobene Erfolge, Skills und Projektbeschreibungen gemeinsam auf die Zielrolle an. Verwende den CV für die technische Beweisführung: Er zeigt relevante Projekte, Entscheidungen, Verantwortungsumfang und Ergebnisse kompakt und überprüfbar. `Professional experience` bezeichnet im Folgenden die Berufserfahrung; in der aktuellen Vorlage sind dies `SELECTED FREELANCE WORK EXPERIENCE` und `SELECTED CONSULTING PROJECTS`.
@@ -206,7 +221,7 @@ Erstelle den CV als Kopie der CV-Vorlage. Passe Summary, hervorgehobene Erfolge,
 
 ## Dokumente prüfen und liefern
 
-Der Ablauf führt von der Ausschreibung und Sprachwahl über die Vorlagenkopien zu geprüften Bewerbungsunterlagen und einer PDF der Ausschreibung:
+Der Ablauf führt von der Ausschreibung und Sprachwahl über die Vorlagenkopien zu geprüften Bewerbungsunterlagen, einer Bewerbungskurzform und einer PDF der Ausschreibung:
 
 ```mermaid
 flowchart LR
@@ -221,8 +236,9 @@ flowchart LR
     E -->|Nein| G[Ausgabeordner unter applications erstellen]
     G --> M[Ausschreibung mit Quelle als PDF sichern]
     M --> H[Anschreiben und CV anpassen]
-    H --> I[Inhalt, geschützte Bereiche und Layout prüfen]
-    I --> J[Beide ODT-Dateien und Ausschreibungs-PDF liefern]
+    H --> N[Bewerbungskurzform als bewerbung-kurz.md erstellen]
+    N --> I[Inhalt, geschützte Bereiche, Layout und Kurzform prüfen]
+    I --> J[Beide ODT-Dateien, Ausschreibungs-PDF und Kurzform liefern]
 ```
 
 Prüfe vor der Lieferung:
@@ -239,8 +255,9 @@ Prüfe vor der Lieferung:
 10. Vergleiche die Gestaltung mit den Vorlagen und korrigiere Abweichungen innerhalb des erlaubten Änderungsumfangs.
 11. Der Einstieg im Anschreiben zeigt einen persönlichen, belegten Bezug zur ausgeschriebenen Aufgabe. Er enthält weder allgemeine Unternehmenslobeshymnen noch erfundene Motive oder Kontakte. Der Brief bleibt auf den wesentlichen Beitrag und die Zusammenarbeit konzentriert; zusätzliche Inhalte sind durch Stellenrelevanz oder notwendige Einordnung begründet.
 12. Die Ausschreibungs-PDF liegt im selben Ausgabeordner, lässt sich öffnen und wurde auf allen Seiten visuell geprüft. Sie enthält den vollständigen verwendeten Ausschreibungstext in der Originalsprache und eine sichtbare, korrekte Quellenangabe. Bei einer Webseite sind die konkrete URL und das Abrufdatum enthalten; bei anderen Quellen sind Herkunft und Übernahmedatum dokumentiert. Unbekannte Herkunft und technisch nicht durchführbare Prüfungen sind ausdrücklich ausgewiesen.
-13. Alle drei Ausgabedateien liegen im neu erstellten Bewerbungsordner unter `./applications/`. Die verwendeten Quellenpfade wurden gegen die vorhandene Projektstruktur geprüft.
+13. `bewerbung-kurz.md` ist als UTF-8-Textdatei lesbar und enthält ausschließlich den direkt kopierbaren Nachrichtentext mit insgesamt 100–150 Wörtern. Sprache, Zielrolle und belegte Erfahrungen stimmen mit Anschreiben und CV überein. Eine genannte Ansprechperson wird persönlich angesprochen; andernfalls ist die Anrede neutral. Konkreter Projektbezug, belegte Passung, Gesprächswunsch, Grußformel und Name sind enthalten. Verfügbarkeit und Stundensatz sind nur bei ausdrücklicher Bestätigung für diese Bewerbung enthalten. Es gibt keine offenen Platzhalter.
+14. Alle vier Ausgabedateien liegen im neu erstellten Bewerbungsordner unter `./applications/`. Die verwendeten Quellenpfade wurden gegen die vorhandene Projektstruktur geprüft.
 
 Ist die Seitenbegrenzung innerhalb dieser Vorgaben nicht erreichbar, frage einzeln nach einer Entscheidung. Falls eine Öffnungs-, Render- oder Layoutprüfung technisch nicht möglich ist, benenne die konkrete Prüfungslücke und behaupte nicht, das Layout oder die Seitenzahl seien bestätigt.
 
-Führe den gesamten Ablauf nach Beantwortung der Fragen selbstständig aus und speichere beide ODT-Dateien sowie die Ausschreibungs-PDF im neu erstellten Ausgabeordner. Liefere zum Abschluss einen klickbaren Link zum Ausgabeordner und zu allen drei Dateien sowie eine kurze deutsche Zusammenfassung: Zielsprache, wichtigste inhaltliche Anpassungen, tatsächlich geprüfte Seitenzahlen, Quelle der Ausschreibung und gegebenenfalls offene Punkte. Versende oder veröffentliche die Bewerbung nicht selbstständig.
+Führe den gesamten Ablauf nach Beantwortung der Fragen selbstständig aus und speichere beide ODT-Dateien, die Ausschreibungs-PDF und `bewerbung-kurz.md` im neu erstellten Ausgabeordner. Liefere zum Abschluss einen klickbaren Link zum Ausgabeordner und zu allen vier Dateien sowie eine kurze deutsche Zusammenfassung: Zielsprache, wichtigste inhaltliche Anpassungen, tatsächlich geprüfte Seitenzahlen, geprüfte Wortzahl der Kurzform, Quelle der Ausschreibung und gegebenenfalls offene Punkte. Versende oder veröffentliche die Bewerbung nicht selbstständig.
