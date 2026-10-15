@@ -1,0 +1,17 @@
+Software development with a strong focus on architecture and code quality. From the idea to backlog to business value - team-oriented, pragmatic and quality-conscious. 
+
+
+
+With experience from more than 100 projects in industrial and scientific environments, I focus on developing sustainable software solutions characterized by high code quality, functionality, and adaptability. As an engineer in technical physics, I combine strong analytical skills with practical expertise in software architecture, testing, and process optimization.
+
+
+
+Code quality and functionality are fundamental principles in my work. I place particular emphasis on readability, maintainability, and long-term evolvability of software. I apply SOLID principles, Clean Code practices, and design patterns to ensure well-structured and sustainable architectures. Automated testing and code reviews are an essential part of my daily work and help to continuously secure high quality standards. Responsible use of AI supports me from requirements analysis to code generation to validation of results.
+
+
+
+I enjoy sharing knowledge with colleagues, learning new approaches, and continuously improving my skills. Staying up to date with new technologies allows me to adapt quickly to changing requirements. In teamwork with interdisciplinary groups, I contribute expertise in interface development and test process optimization, always aiming for constructive collaboration as the foundation of successful projects.
+
+
+
+I am used to solving problems and tasks independently. However, I place particular emphasis on productive and collegial teamwork.
